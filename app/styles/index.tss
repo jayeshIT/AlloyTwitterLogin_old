@@ -1,0 +1,57 @@
+".container": {
+	backgroundColor:"white"
+},
+
+".twitter[platform=ios]":
+	{
+	top: 80,
+	left: 10,
+	height: 60,
+	width: 60,
+	backgroundImage: '/twitter.png'
+},
+".twitter_checkforlogin[platform=ios]":
+{
+	top : 170,
+	left: 10,
+	height: 30,
+	width: 100,
+	title :'Check Login'
+},
+".twitter_logout[platform=ios]":
+	{
+	top: 80,
+	right: 10,
+	height: 30,
+	width: 150,
+	visible: false,
+	title: 'Twitter logout'
+},
+
+
+
+".twitter[platform=android]":
+	{
+	top: 80,
+	left: 10,
+	height: 100,
+	width: 100,
+	backgroundImage: '/twitter.png'
+},
+".twitter_checkforlogin[platform=android]":
+{
+	top : 250,
+	left: 10,
+	height: 60,
+	width: 200,
+	title :'Check Login'
+},
+".twitter_logout[platform=android]":
+	{
+	top: 80,
+	right: 10,
+	height: 60,
+	width: 200,
+	visible: false,
+	title: 'Twitter logout'
+}

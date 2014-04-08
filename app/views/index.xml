@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container" id="container">
+		<Button class='twitter' id="twitter"/>
+		<Button class='twitter_checkforlogin' id="twitter_checkforlogin"/>
+		
+		<Button class='twitter_logout' id="twitter_logout"/>
+	</Window>
+</Alloy>

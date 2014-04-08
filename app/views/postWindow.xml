@@ -1,0 +1,15 @@
+<Alloy>
+	<Window class="postWindow" id="postWindow">
+		
+	<View class="viewAddPost" id="viewAddPost">
+			<Label class="lblviewAddpost" id="lblviewAddpost"/>
+			<Button class='backbutton' id='backbutton' >
+		</View>	
+	<View class="mainView" id="mainView">
+	
+	<Button class='postbutton' id='postbutton'/>
+	
+	<TextArea class='imgtext' id='imgtext'/>
+	</View>			
+	</Window>
+</Alloy>

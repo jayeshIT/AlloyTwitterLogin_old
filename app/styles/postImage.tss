@@ -1,0 +1,138 @@
+
+".postImage" : {
+  
+  	backgroundColor : 'white',
+  	navBarHidden :true
+},
+".viewAddPost":
+{
+	top : 0,
+	left : 0,
+	right :0,
+	height : 44,
+    backgroundColor : "black"	
+},
+".lblviewAddpost":
+{
+	top : 4,
+	left : 0,
+	right : 0,
+	height : 35,
+	font :
+	{
+		fontSize : 20,
+		fontWeight : "bold"
+	},
+	text : "Post",
+	color : "white",
+	textAlign : "center"
+},
+
+".mainView":
+{
+	top : 50,
+	left : 0,
+	right : 0,
+	bottom : 0
+},
+".photobutton[platform=ios]":
+{
+	top :0,
+	left : 10,
+	title : "Take photo",
+	color : "black",
+	textAlign : "center",
+	height : 30,
+	width : 100
+},
+
+".photobutton[platform=android]":
+{
+	top :10,
+	left : 10,
+	title : "Take photo",
+	color : "black",
+	textAlign : "center",
+	height : 60,
+	width : 150
+},
+".postbutton[platform=ios]":
+{
+	top :0,
+	title : "Post",
+	color : "black",
+	right : 10,
+	textAlign : "center",
+	height : 30,
+	width : 60
+},
+
+".postbutton[platform=android]":
+{
+	top :10,
+	title : "Post",
+	color : "black",
+	right : 10,
+	textAlign : "center",
+	height : 60,
+	width : 120
+},
+".imgView[platform=ios]":
+{
+	top : 40,
+	left :10,
+	right : 10,
+	height : 250,
+},
+".imgView[platform=android]":
+{
+	top : 70,
+	left :10,
+	right : 10,
+	height : 250,
+},
+'.imgtext[platform=ios]':
+{
+	top : 300,
+	left : 10,
+	height : 100,
+	right : 10,
+	font :
+	{
+		fontSize : 15
+	},
+	color : "black",
+	borderColor:"gray",
+	borderRadius : 5,
+	borderWidth: 1.5,
+	appearance : Ti.UI.KEYBOARD_APPEARANCE_ALERT,
+	autocapitalization : Titanium.UI.TEXT_AUTOCAPITALIZATION_SENTENCES,
+	returnKeyType:Titanium.UI.RETURNKEY_DONE
+},
+
+'.imgtext[platform=android]':
+{
+	top : 500,
+	left : 10,
+	height : 150,
+	right : 10,
+	font :
+	{
+		fontSize : 15
+	},
+	color : "black",
+	borderColor:"gray",
+	borderRadius : 5,
+	borderWidth: 1.5,
+	appearance : Ti.UI.KEYBOARD_APPEARANCE_ALERT,
+	autocapitalization : Titanium.UI.TEXT_AUTOCAPITALIZATION_SENTENCES,
+	returnKeyType:Titanium.UI.RETURNKEY_DONE
+},
+".backbutton":
+{
+	top : 5,
+	left : 8,
+	height : 29,
+	width : 49,
+	backgroundImage : "/back.png"
+}
